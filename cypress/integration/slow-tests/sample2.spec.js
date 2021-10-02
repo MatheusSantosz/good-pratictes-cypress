@@ -4,8 +4,8 @@ describe('Slow tests bad practice - Sample 2', () => {
 
    
 
-    cy.get('#email').type('joe@example.com')
-    cy.get('#password').type('foobarbaz')
+    cy.get('#email').should('to.be.empty').type('joe@example.com')
+    cy.get('#password').should('to.be.empty').type('foobarbaz')
     cy.get('#confirmPassword').type('foobahbaz')
 
     cy.contains('button', 'Signup')
