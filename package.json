@@ -1,0 +1,22 @@
+{
+  "name": "cypress-boas-praticas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress.io",
+    "talking about testing",
+    "good practices"
+  ],
+  "author": "Matheus Dos Santos Barbosa <matheus.santos.ciencia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "faker": "^5.5.3",
+    "faker-br": "^0.4.1"
+  }
+}
